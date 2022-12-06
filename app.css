@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-family: 'Lacquer', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Syne Tactile', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    background: none;
+    color: #110b06;
+    border: 2px solid;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    color: #f3f4eb;
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    border-radius: 5px;
+    transform: translateY(-0.25em);
+}
